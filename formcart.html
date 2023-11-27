@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" type="text/css" href="stylecart.css">
+</head>
+<body>
+
+
+    
+
+
+  <script src="script2.js"></script>
+
+
+    <div id="wrapper">
+        <div id="header">
+          <a href=# onclick="onformidex2()" class="logo">
+                <img src="assets/logo.png" alt="">
+            </a>
+            <div id="menu">
+                <div class="item">
+                    <div class="dropdown">
+                        <div class="dropdown-btn" onmouseover="showDropdown()" onmouseout="hideDropdown()">SẢN PHẨM</div>
+                        <div class="dropdown-content">
+                          <a href= # onclick="onformspnam()">MEN'S SHOES</a> 
+                            <a href=# onclick="onformspnu()">WOMEN'S SHOES</a>
+                            <a href=# onclick="onformspsaleof()">SALE OFF</a>
+                          <!-- Thêm các sản phẩm khác vào đây -->
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                  <a href=# onclick="onformspnam()">NAM</a>
+              </div>
+              <div class="item">
+                  <a href=# onclick="onformspnu()">NỮ</a>
+              </div>
+              <div class="item">
+                  <a href=# onclick="onformspsaleof()">SALE OFF</a>
+              </div>
+            </div>
+            <div id="actions">
+                <div class="item">
+                    <div class="search-bar">
+                        <input type="text" id="search-input" placeholder="Tìm kiếm...">
+                      </div>
+                </div>
+              
+                <div class="item">
+                    <div class="dropdown">
+                        <div class="dropbtn">
+                          <img src="assets/user.png" alt="">
+                        </div>
+                        <div class="dropdown-content">
+                          <a style="color: black;" href="#">Đăng nhập</a> 
+                          <a style="color: black;" href="#">Đăng kí</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                    <a href="formcart.html"><img src="assets/cart.png" alt=""></a> 
+                    
+                </div>
+            </div>
+            
+
+
+
+        </div>
+        <div class="hot-news-container">
+            <ul class="hot-news-list">
+              <li class="hot-news-item">BUY MORE PAY LESS - ÁP DỤNG KHI MUA HÀNG LẦN ĐẦU</li>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+              <li class="hot-news-item">BUY 2 GET 10% OFF - ÁP DỤNG VỚI TẤT CẢ BASIC SNEAKER</li>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+              <li class="hot-news-item">FREE SHIPPING VỚI HÓA ĐƠN TỪ 900K!</li>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+              <li class="hot-news-item">HÀNG 2 TUẦN NHẬN ĐỔI - GIÀY NỬA NĂM BẢO HÀNH </li>
+            </ul>
+          </div>
+
+
+          
+            <header>
+              <h1>Giỏ hàng</h1>
+            </header>
+            
+            <main>
+              <div class="cart-items">
+                <div class="item1">
+                  <img src="assets/imgsp1.jpg" alt="Sản phẩm 1">
+                  <div class="item-details">
+                    <h2>Converse × Fear Of God Essentials </h2>
+                    <p>Giá: $99.99</p><p>
+                    <label for="color">số lượng</label>
+                    <select id="color">
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                      <option value="">4</option>
+                      <option value="">5</option>
+                      <option value="">...</option>
+                    </select></p>
+                    <button class="remove-button">Xóa</button>
+                  </div>
+                </div>
+                <div class="item1">
+                  <img src="assets/imgsp1.jpg" alt="Sản phẩm 2">
+                  <div class="item-details">
+                    <h2>Converse × Fear Of God Essentials</h2>
+                    <p>Giá: $99.99</p><p>
+                    <label for="color">số lượng</label>
+                    <select id="color">
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                      <option value="">4</option>
+                      <option value="">5</option>
+                      <option value="">...</option>
+                    </select></p>
+                    <button class="remove-button">Xóa</button>
+                  </div>
+                </div>
+                <div class="item1">
+                  <img src="assets/imgspnu1.jpg" alt="Sản phẩm 2">
+                  <div class="item-details">
+                    <h2>Nike dunk low pink velvet</h2>
+                    <p>Giá: $99.99</p><p>
+                    <label for="color">số lượng</label>
+                    <select id="color">
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                      <option value="">4</option>
+                      <option value="">5</option>
+                      <option value="">...</option>
+                    </select></p>
+                    <button class="remove-button">Xóa</button>
+                  </div>
+                </div>
+                <div class="item1">
+                  <img src="assets/imgspnu1.jpg" alt="Sản phẩm 2">
+                  <div class="item-details">
+                    <h2>Nike dunk low pink velvet</h2>
+                    <p>Giá: $99.99</p><p>
+                    <label for="color">số lượng</label>
+              
+                    <select id="color">
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                      <option value="">4</option>
+                      <option value="">5</option>
+                      <option value="">...</option>
+                    </select></p>
+                    <button class="remove-button">Xóa</button>
+                  </div>
+                </div>
+                <div class="item1">
+                  <img src="assets/imgsp.png" alt="Sản phẩm 2">
+                  <div class="item-details">
+                    <h2>Giày Adidas X_Plrboost Shoes Low </h2>
+                    <p>Giá: $99.99</p>
+                    <p><label for="color">số lượng</label>
+                      <select id="color">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">...</option>
+                      </select></p>
+                    <button class="remove-button">Xóa</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="cart-summary">
+                <h2>Tổng cộng</h2>
+                <p>Số lượng sản phẩm: 5 </p>
+                <p>Tổng giá: $99999</p>
+                <button class="checkout-button">Thanh toán</button>
+              </div>
+              
+            </main>
+            
+            <footer>
+              <p>Bản quyền &copy; 2023 - HusSneaker</p>
+            </footer>
+</body>
+</html>
